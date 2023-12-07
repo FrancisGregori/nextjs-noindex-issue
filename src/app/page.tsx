@@ -5,6 +5,7 @@ import {useSearchParams} from "next/navigation";
 
 export default function Home() {
   const params = useSearchParams()
+
   console.log(params?.get('test'))
 
   return (
